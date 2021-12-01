@@ -106,7 +106,9 @@
   border-radius: 1.625rem;
 }
 .featured-game .featured-game-card:hover .blur-sharp {
-  width: 192px;
+  /* [CODE UPDATE] width & height saya ubah menjadi 100% */
+  width: 100%;
+  height: 100%;
   border: 7px solid white;
 }
 
@@ -212,7 +214,7 @@ footer ul li a:hover {
 
   .header .underline-blue:after {
     position: absolute;
-    content: "";
+    content: '';
     height: 8px;
     bottom: 11px;
     margin: 0 auto;
